@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Busca de Livros</h1>
+        <div id="search-area">
+            <input type="text" id="entrada" placeholder="Digite para buscar livros...">
+            <button id="mostrarFavoritos">Mostrar Favoritos</button>
+        </div>
+
+        <div id="loading" class="loading">Carregando...</div>
+
+        <div id="livros" class="livros-container"></div>
+    </div>
+
+    <div id="favoritos-tela" class="hidden">
+        <h2>Meus Favoritos</h2>
+        <div id="livros-favoritos-exibicao"></div>
+        <button id="voltar">Voltar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
